@@ -1,0 +1,50 @@
+body {
+  font-family: 'Ultra',serif;
+  font-family: 'Lato', sans-serif;
+}
+html {
+  background: url("/assets/images/photos/about-background.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.logo-text {
+font-family: 'Ultra', serif;
+font-size: 250%;
+color: white;
+letter-spacing: 2px;
+text-align: center;
+}
+
+.menu-logo-text {
+font-family: 'Ultra', serif;
+font-size: 200%;
+color: white;
+letter-spacing: 2px;
+text-align: center;
+}
+
+/* .left-logo-text {
+font-family: 'Ultra', serif;
+font-size: 200%;
+color: white;
+letter-spacing: 2px;
+text-align: left;
+padding-left: 120px;
+padding-top: 33px;
+} */
+
+
+
+.columns {
+  font-family: 'Lato', sans-serif;
+  color: #ffcc99;
+  column;
+  font-size: 100%;
+  text-align: center;
+  padding-top: 45px;
+  padding-right: 120px;
+  padding-left: 120px;
+}
