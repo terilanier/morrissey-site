@@ -45,12 +45,11 @@ padding-top: 33px;
   /* column; */
   font-size: 100%;
   text-align: center;
-  padding-top: 45px;
+  padding-top: 66px;
   padding-right: 120px;
   padding-left: 120px;
 }
 
 .columnwithbackground {
   background-image: url("/assets/images/photos/pidgeonbanner184x132.jpg");
-
 }
