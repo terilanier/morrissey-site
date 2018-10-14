@@ -47,6 +47,8 @@ padding-top: 33px;
   background-color: #faeada;
   color: black;
   width: auto;
+  font-size: 80%;
+  text-align: left;
   margin-left: 120px;
 }
 .columnwithbackground {
