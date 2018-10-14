@@ -16,7 +16,6 @@ font-family: 'Ultra', serif;
 font-size: 200%;
 color: white;
 letter-spacing: 2px;
-text-align: center;
 }
 
 /* .left-logo-text {
@@ -38,11 +37,18 @@ padding-top: 33px;
   /* column; */
   font-size: 100%;
   text-align: center;
-  padding-top: 66px;
+  padding-top: 33px;
   padding-right: 120px;
   padding-left: 120px;
+  padding-bottom: 40px;
 }
 
+.about-box{
+  background-color: #faeada;
+  color: black;
+  width: auto;
+  margin-left: 120px;
+}
 .columnwithbackground {
   background-image: url("/assets/images/photos/pidgeonbanner184x132.jpg");
 }
@@ -54,10 +60,10 @@ padding-top: 33px;
 }
 .plain-text {
   border-left: 2px solid #ffa64d;
-  padding: 20px;
+  padding: 30px;
   border-radius: 15px;
   color: white;
-  width: 750px;
+  width: 700px;
   margin-left: 120px;
   background: rgb(0,0,0,0.65);
   /* box-shadow: 9px 10px 16px 0px rgba(0,0,0,0.75);
