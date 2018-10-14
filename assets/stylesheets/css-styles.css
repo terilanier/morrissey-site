@@ -46,3 +46,22 @@ padding-top: 33px;
 .columnwithbackground {
   background-image: url("/assets/images/photos/pidgeonbanner184x132.jpg");
 }
+.headlines {
+  color: white;
+  padding-left: 140px;
+  padding-top: 50px;
+  padding-bottom: 25px;
+
+}
+.plain-text {
+  border-radius: 15px;
+  color: white;
+  width: 720px;
+  background: rgb(0,0,0,0.65);
+  margin: 10px left;
+  padding: 20px;
+  /* box-shadow: 9px 10px 16px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 9px 10px 16px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 9px 10px 16px 0px rgba(0,0,0,0.75); */
+text-indent: 50px;
+}
