@@ -48,20 +48,24 @@ padding-top: 33px;
 }
 .headlines {
   color: white;
-  padding-left: 140px;
-  padding-top: 50px;
+  font-size: 125%;
   padding-bottom: 25px;
 
 }
 .plain-text {
+  border-left: 2px solid #ffa64d;
+  padding: 20px;
   border-radius: 15px;
   color: white;
-  width: 720px;
+  width: 750px;
+  margin-left: 120px;
   background: rgb(0,0,0,0.65);
-  margin: 10px left;
-  padding: 20px;
   /* box-shadow: 9px 10px 16px 0px rgba(0,0,0,0.75);
 -webkit-box-shadow: 9px 10px 16px 0px rgba(0,0,0,0.75);
 -moz-box-shadow: 9px 10px 16px 0px rgba(0,0,0,0.75); */
 text-indent: 50px;
+}
+.text-box {
+  width: 720px;
+  /* background: rgb(0,0,0,0.65); */
 }
