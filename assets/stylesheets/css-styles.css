@@ -7,13 +7,14 @@ body {
 font-family: 'Ultra', serif;
 font-size: 250%;
 color: white;
+padding-top: -10px;
 letter-spacing: 2px;
-text-align: center;
+text-align: left;
 }
 
 .menu-logo-text {
 font-family: 'Ultra', serif;
-font-size: 200%;
+font-size: 250%;
 color: white;
 letter-spacing: 2px;
 }
@@ -31,36 +32,36 @@ padding-top: 33px;
 
 
 .columns {
-
   font-family: 'Lato', sans-serif;
   color: #ffcc99;
   /* column; */
   font-size: 100%;
   text-align: center;
-  padding-top: 33px;
+  padding-top: 10px;
   padding-right: 120px;
   padding-left: 120px;
   padding-bottom: 40px;
 }
 
 .about-box {
-  background-color: #faeada;
+  background: rgba(250,234,218, 0.65);
   color: black;
   font-size: 80%;
   text-align: left;
-  border-radius: 0px 15px 0px 0px;
+  border-radius: 15px 15px 0px 0px;
+  padding-top: 5px;
   margin-left: 120px;
   margin-right: 120px;
+  margin-top: auto;
 }
-.columnwithbackground {
-  background-image: url("/assets/images/photos/pidgeonbanner184x132.jpg");
+
 }
 .headlines {
   color: white;
   font-size: 125%;
   padding-bottom: 25px;
-
 }
+
 .plain-text {
   border-left: 2px solid #ffa64d;
   padding: 30px;
