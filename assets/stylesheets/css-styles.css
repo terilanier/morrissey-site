@@ -84,14 +84,13 @@ text-indent: 50px;
   width: 720px;
   /* background: rgb(0,0,0,0.65); */
 }
-.white-box {
-  position: fixed;
+.content {
   background: white;
   border-radius: 15px;
-  min-width: 750px;
+  min-width: 400px;
   height: auto;
   padding: 5px;
-  margin-left: 616px;
+  margin-left: 470px;
   margin-right: 120px;
-  margin-top: auto;
+  margin-top: 50px;
 }
