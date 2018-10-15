@@ -7,7 +7,6 @@ body {
 font-family: 'Ultra', serif;
 font-size: 250%;
 color: white;
-padding-top: -10px;
 letter-spacing: 2px;
 text-align: left;
 }
@@ -29,7 +28,13 @@ padding-left: 120px;
 padding-top: 33px;
 } */
 
-
+.tour-headline {
+  font-family: 'Ultra', serif;
+  font-size: 200%;
+  color: #ffcc99;
+  letter-spacing: 2px;
+  text-align: center;
+}
 
 .columns {
   font-family: 'Lato', sans-serif;
@@ -78,4 +83,15 @@ text-indent: 50px;
 .text-box {
   width: 720px;
   /* background: rgb(0,0,0,0.65); */
+}
+.white-box {
+  position: fixed;
+  background: white;
+  border-radius: 15px;
+  min-width: 750px;
+  height: auto;
+  padding: 5px;
+  margin-left: 616px;
+  margin-right: 120px;
+  margin-top: auto;
 }
