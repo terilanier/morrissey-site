@@ -10,23 +10,16 @@ color: white;
 letter-spacing: 2px;
 text-align: left;
 }
-
+.menu-text{
+color: #ffcc99;
+}
 .menu-logo-text {
 font-family: 'Ultra', serif;
 font-size: 250%;
 color: white;
 letter-spacing: 2px;
+text-decoration: none;
 }
-
-/* .left-logo-text {
-font-family: 'Ultra', serif;
-font-size: 200%;
-color: white;
-letter-spacing: 2px;
-text-align: left;
-padding-left: 120px;
-padding-top: 33px;
-} */
 
 .tour-headline {
   font-family: 'Ultra', serif;
@@ -35,10 +28,20 @@ padding-top: 33px;
   letter-spacing: 2px;
   text-align: center;
 }
+.menu-logo-text a{
+  text-decoration: none;
+  color: white;
+}
+.columns a{
+  text-decoration: none;
+  color: #ffcc99;
+}
+.columns a:hover{
+  color: white;
+  font-weight:bolder;
+}
 
 .columns {
-  font-family: 'Lato', sans-serif;
-  color: #ffcc99;
   /* column; */
   font-size: 100%;
   text-align: center;
