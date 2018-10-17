@@ -2,6 +2,7 @@ body {
   font-family: 'Ultra',serif;
   font-family: 'Lato', sans-serif;
 }
+/* Landingpage styles */
 .landing-logo-text{
   padding: 30px;
   font-family: 'Ultra', serif;
@@ -11,11 +12,15 @@ body {
   text-align: center;
 }
 .landing-menu-box{
-  font-size: auto;
+background-color: rgba(0,0,0,0.5);
+  font-size: 120%;
+  padding-top: 20px;
+  box-sizing: content-box;
   min-width: 600px;
   border-top: 2px solid #ffcc99;
   border-bottom: 2px solid #ffcc99;
 }
+/* Everypage navigation styles */
 .logo-text {
 font-family: 'Ultra', serif;
 font-size: 250%;
@@ -26,6 +31,7 @@ text-align: left;
 
 .menu-text{
 color: #ffcc99;
+text-align: center;
 }
 .menu-logo-text {
 font-family: 'Ultra', serif;
@@ -35,13 +41,6 @@ letter-spacing: 2px;
 text-decoration: none;
 }
 
-.tour-headline {
-  font-family: 'Ultra', serif;
-  font-size: 200%;
-  color: #ffcc99;
-  letter-spacing: 2px;
-  text-align: center;
-}
 .menu-logo-text a{
   text-decoration: inherit;
 }
@@ -54,6 +53,17 @@ text-decoration: none;
   color: white;
   font-weight:bolder;
 }
+
+/* special logo-style headline */
+.special-headline {
+  font-family: 'Ultra', serif;
+  font-size: 200%;
+  color: #ffcc99;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+/* textboxes, columns, and formatting */
 
 .columns {
   /* column; */
