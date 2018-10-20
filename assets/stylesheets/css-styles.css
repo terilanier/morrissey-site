@@ -15,7 +15,7 @@ body {
 background-color: rgba(0,0,0,0.5);
   font-size: 120%;
   padding-top: 20px;
-  box-sizing: content-box;
+  height: 95px;
   min-width: 600px;
   border-top: 2px solid #ffcc99;
   border-bottom: 2px solid #ffcc99;
@@ -33,6 +33,13 @@ text-align: left;
 color: #ffcc99;
 text-align: center;
 }
+
+.menu-text a:hover{
+  color: white;
+  font-weight:bolder;
+  font-size: 115%;
+}
+
 .menu-logo-text {
 font-family: 'Ultra', serif;
 font-size: 250%;
@@ -42,24 +49,24 @@ text-decoration: none;
 }
 
 .menu-logo-text a{
-  text-decoration: inherit;
+  text-decoration: none;
 }
 
 .columns a{
   text-decoration: none;
   color: inherit;
 }
-.columns a:hover{
+/* .columns a:hover{
   color: white;
   font-weight:bolder;
-}
+} */
 .dark-menu-box{
   background-color: black;
   width:auto; height: 100px;
   /* box-shadow: black; */
-  box-shadow: 0px 10px 15px 5px rgba(0,0,0,0.75);
-  -webkit-box-shadow: 0px 10px 15px 5px rgba(0,0,0,0.75);
-  -moz-box-shadow: 0px 10px 15px 5px rgba(0,0,0,0.75);
+  box-shadow: 0px 6px 20px 5px rgba(0,0,0,0.5);
+  -webkit-box-shadow: 0px 6px 20px 5px rgba(0,0,0,0.5);
+  -moz-box-shadow: 0px 10px 6px 5px rgba(0,0,0,0.5);
 }
 
 /* special logo-style headline */
@@ -104,6 +111,11 @@ text-decoration: none;
   color: white;
   font-size: 125%;
   padding-bottom: 25px;
+}
+.caption-text{
+  color: black;
+  text-align: center;
+  font-size: 70%;
 }
 .straight-text{
   color: black;
