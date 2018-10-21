@@ -62,7 +62,7 @@ text-decoration: none;
 } */
 .dark-menu-box{
   background-color: black;
-  width:auto; height: 100px;
+  width:auto; height: auto;
   /* box-shadow: black; */
   box-shadow: 0px 6px 20px 5px rgba(0,0,0,0.5);
   -webkit-box-shadow: 0px 6px 20px 5px rgba(0,0,0,0.5);
