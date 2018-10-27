@@ -157,7 +157,7 @@ text-indent: 50px;
   text-align: center;
 }
 .card {
+  flex-direction: row;
   width: 200px;
-  height:auto;
   background: white;
 }
