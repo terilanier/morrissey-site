@@ -152,3 +152,12 @@ text-indent: 50px;
   margin-right: 120px;
   margin-top: 50px;
 }
+.card-title {
+  font-size: 150%;
+  text-align: center;
+}
+.card {
+  width: 200px;
+  height:auto;
+  background: white;
+}

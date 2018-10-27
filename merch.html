@@ -5,20 +5,106 @@
     <link href="https://fonts.googleapis.com/css?family=Lato|Ultra" rel="stylesheet">
     <link href="./assets/stylesheets/bulma.min.css" rel="stylesheet" />
     <link href="./assets/stylesheets/css-styles.css" rel="stylesheet" />
+    <link href="./assets/stylesheets/css-merch-style.css" rel="stylesheet" />
   </head>
   <body>
-    <nav>
-      <div class="level">
-      <div class="columns level-item has-text-centered">
-        <div class="menu-logo-text column"><a href="index.html">MORRISSEY</a></div>
-        <div class="menu-text column"><a href="about.html">ABOUT</a></div>
-        <div class="menu-text column"><a href="discography.html">DISCOGRAPHY</a></div>
-        <div class="column menu-text"><a href="media.html">MEDIA</a></div>
-        <div class="column menu-text"><a href="merch.html">MERCH</a></div>
-        <div class="column menu-text"><a href="tour.html">TOUR</a></div>
+    <div class="dark-menu-box">
+      <nav>
+        <div class="level">
+        <div class="columns level-item has-text-centered">
+          <div class="menu-logo-text column"><a href="index.html">MORRISSEY</a></div>
+          <div class="menu-text column"><a href="about.html">ABOUT</a></div>
+          <div class="menu-text column"><a href="discography.html">DISCOGRAPHY</a></div>
+          <div class="column menu-text"><a href="media.html">MEDIA</a></div>
+          <div class="column menu-text"><a href="merch.html">MERCH</a></div>
+          <div class="column menu-text"><a href="tour.html">TOUR</a></div>
+        </div>
+        </div>
+      </nav>
+    </div>
+    <!-- Side navigation -->
+  <div class="sidenav" id="myBtnContainer">
+    <a class="btn active" onclick="filterSelection('all')">All Items</a>
+    <a class="btn" onclick="filterSelection('clothing')">Clothing</a>
+    <a class="btn" onclick="filterSelection('other')">Other</a>
+    <a class="btn" onclick="filterSelection('vinyl')">Vinyl</a>
+  </div>
+  <!-- Page content -->
+  <div class="main">
+    <div class="container">
+        <div class="filterDiv clothing">
+        <img src="./assets/images/merch/blackteeredcircle-thumb.png" />
       </div>
+        <div class="filterDiv other">
+        <img src="./assets/images/merch/blue-mug-thumb.jpg" />
       </div>
-    </nav>
+        <div class="filterDiv other">
+        <img src="./assets/images/merch/blueposter-thumb.png" />
+      </div>
+        <div class="filterDiv other">
+          <img src="./assets/images/merch/buttonassortment-thumb.png" />
+        </div>
+        <div class="filterDiv other">
+          <img src="./assets/images/merch/cat-neck.jpg" />
+        </div>
+        <div class="filterDiv vinyl">
+          <img src="./assets/images/merch/French-LP-thumb.png" />
+        </div>
+    </div>
 
+
+
+
+  <!--the closing div tab for "main"-->
+  </div>
+  <script>
+      filterSelection("all")
+      function filterSelection(c) {
+        var x, i;
+        x = document.getElementsByClassName("filterDiv");
+        if (c == "all") c = "";
+        // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
+        for (i = 0; i < x.length; i++) {
+          w3RemoveClass(x[i], "show");
+          if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+        }
+      }
+
+      // Show filtered elements
+      function w3AddClass(element, name) {
+        var i, arr1, arr2;
+        arr1 = element.className.split(" ");
+        arr2 = name.split(" ");
+        for (i = 0; i < arr2.length; i++) {
+          if (arr1.indexOf(arr2[i]) == -1) {
+            element.className += " " + arr2[i];
+          }
+        }
+      }
+
+      // Hide elements that are not selected
+      function w3RemoveClass(element, name) {
+        var i, arr1, arr2;
+        arr1 = element.className.split(" ");
+        arr2 = name.split(" ");
+        for (i = 0; i < arr2.length; i++) {
+          while (arr1.indexOf(arr2[i]) > -1) {
+            arr1.splice(arr1.indexOf(arr2[i]), 1);
+          }
+        }
+        element.className = arr1.join(" ");
+      }
+
+      // Add active class to the current control button (highlight it)
+      var btnContainer = document.getElementById("myBtnContainer");
+      var btns = btnContainer.getElementsByClassName("btn");
+      for (var i = 0; i < btns.length; i++) {
+        btns[i].addEventListener("click", function() {
+          var current = document.getElementsByClassName("active");
+          current[0].className = current[0].className.replace(" active", "");
+          this.className += " active";
+        });
+      }
+  </script>
   </body>
 </html>

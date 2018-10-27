@@ -1,0 +1,65 @@
+/* The sidebar menu */
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 220px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    /* left: 0; */
+    background-color: #111; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 50px;
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 0px 10px 10px 120px;
+    float: left;
+    text-decoration: none;
+    font-size: 100%;
+    color: #fc9;
+    display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  background-color: #555;
+    color: #f1f1f1;
+}
+
+/* Style page content */
+.main {
+padding-left: 220px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+.container {
+    overflow: hidden;
+    background-color: white;
+    padding-top: 50px;
+}
+
+.filterDiv {
+    float: left;
+    color: #ffffff;
+    width: 100px;
+    line-height: 100px;
+    text-align: center;
+    margin: 2px;
+    display: none; /* Hidden by default */
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+    display: block;
+}
+
+.filterDiv img{
+width: 100%;
+height: auto;
+display: block; /* Hidden by default */
+}
