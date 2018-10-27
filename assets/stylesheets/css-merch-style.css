@@ -29,6 +29,7 @@
 /* Style page content */
 .main {
 padding-left: 220px;
+padding-right: 120px;
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
@@ -38,17 +39,14 @@ padding-left: 220px;
 }
 
 .container {
-    overflow: hidden;
-    background-color: white;
+    /* overflow: hidden; */
     padding-top: 50px;
 }
 
 .filterDiv {
     float: left;
-    color: #ffffff;
-    width: 100px;
-    line-height: 100px;
-    text-align: center;
+    width: 250px;
+    line-height: auto;
     margin: 2px;
     display: none; /* Hidden by default */
 }
@@ -62,4 +60,9 @@ padding-left: 220px;
 width: 100%;
 height: auto;
 display: block; /* Hidden by default */
+}
+
+img{
+  size
+  padding: 15px;
 }
