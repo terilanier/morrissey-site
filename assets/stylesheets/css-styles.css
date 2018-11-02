@@ -12,9 +12,9 @@ body {
   text-align: center;
 }
 .landing-menu-box{
-background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0,0,0,0.5);
   font-size: 120%;
-  padding-top: 20px;
+  padding-top: 30px;
   height: auto;
   min-width: 600px;
   border-top: 2px solid #ffcc99;
@@ -29,6 +29,9 @@ letter-spacing: 2px;
 text-align: left;
 }
 
+.below-nav{
+  top: 100px;
+}
 .menu-text{
 color: #ffcc99;
 text-align: center;
@@ -41,6 +44,7 @@ text-align: center;
 }
 
 .menu-logo-text {
+padding: 30px;
 font-family: 'Ultra', serif;
 font-size: 250%;
 color: white;
@@ -56,13 +60,10 @@ text-decoration: none;
   text-decoration: none;
   color: inherit;
 }
-/* .columns a:hover{
-  color: white;
-  font-weight:bolder;
-} */
+
 .dark-menu-box{
   position: fixed;
-  z-index: 1;
+  z-index: 1; /*to stay on top*/
   background-color: black;
   width:100%;
   height: 100px;
@@ -147,9 +148,9 @@ text-indent: 50px;
 }
 
 .container {
-    top: 100px;
+    padding-top: 110px;
+    padding-right: 120px;
     overflow: hidden;
-    padding-top: 50px;
 }
 
 .content {
@@ -163,11 +164,86 @@ text-indent: 50px;
   margin-top: 50px;
 }
 .card-title {
-  font-size: 150%;
+  font-size: 130%;
   text-align: center;
 }
 .card {
-  flex-direction: row;
   width: 200px;
+  height: 100%;
   background: white;
+}
+
+.card-container {
+  padding-left: 225px;
+  padding-bottom: 100%;
+  height:100%;
+  background-color: #ffcc99;
+  padding-top: 150px;
+  padding-right: 120px;
+  display: -webkit-flex; /* Safari */
+    -webkit-flex-wrap: wrap; /* Safari 6.1+ */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* The following is all MERCH-STYLING */
+/* The sidebar menu */
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 200px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    background-color: #222; /* Grey */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 150px;
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 0px 10px 10px 120px;
+    float: left;
+    text-decoration: none;
+    font-size: 100%;
+    color: #ffcc99;
+    display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  background-color: #555;
+    color: #f1f1f1;
+}
+
+/* Style page content */
+.main {
+  left: 150px;
+  top: 75px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+.filterDiv {
+    float: left;
+    width: 250px;
+    line-height: auto;
+    margin: 2px;
+    display: none; /* Hidden by default */
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+    display: flex;
+}
+
+.filterDiv img{
+width: 100%;
+height: auto;
+display: block; /* Hidden by default */
+}
+
+img{
+  padding: 0px;
 }
