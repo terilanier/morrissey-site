@@ -2,234 +2,227 @@
 <html lang="en">
   <head>
     <title>MERCH</title>
-    <link href="https://fonts.googleapis.com/css?family=Lato|Ultra" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Ultra" rel="stylesheet" >
     <link href="./assets/stylesheets/bulma.min.css" rel="stylesheet" />
     <link href="./assets/stylesheets/css-styles.css" rel="stylesheet" />
-    <link href="./assets/stylesheets/css-merch-style.css" rel="stylesheet" />
+    <link href="./assets/stylesheets/css-lightbox.css" rel="stylesheet"/>
     <div class="dark-menu-box">
-      <nav>
-        <div class="level">
-        <div class="columns level-item has-text-centered">
-          <div class="menu-logo-text column"><a href="index.html">MORRISSEY</a></div>
-          <div class="menu-text column"><a href="about.html">ABOUT</a></div>
-          <div class="menu-text column"><a href="discography.html">DISCOGRAPHY</a></div>
-          <div class="column menu-text"><a href="media.html">MEDIA</a></div>
-          <div class="column menu-text"><a href="merch.html">MERCH</a></div>
-          <div class="column menu-text"><a href="tour.html">TOUR</a></div>
-        </div>
-        </div>
-      </nav>
+        <nav>
+          <div class="level">
+          <div class="columns level-item has-text-centered">
+            <div class="menu-logo-text column"><a href="index.html">MORRISSEY</a></div>
+            <div class="menu-text column"><a href="about.html">ABOUT</a></div>
+            <div class="menu-text column"><a href="discography.html">DISCOGRAPHY</a></div>
+            <div class="column menu-text"><a href="media.html">MEDIA</a></div>
+            <div class="column menu-text"><a href="merch.html">MERCH</a></div>
+            <div class="column menu-text"><a href="tour.html">TOUR</a></div>
+          </div>
+          </div>
+        </nav>
     </div>
   </head>
   <body>
-    <aside>
-    <!--Side navigation -->
-  <div class="sidenav" id="myBtnContainer">
-    <a class="btn active" onclick="filterSelection('all')">All Items</a>
-    <a class="btn" onclick="filterSelection('clothing')">Clothing</a>
-    <a class="btn" onclick="filterSelection('other')">Other</a>
-    <a class="btn" onclick="filterSelection('vinyl')">Vinyl</a>
-  </div>
-  </aside>
-  <!-- Page content -->
-  <div class="main">
-    <div class="container is-fluid">
-        <div class="filterDiv clothing">
-          <div class="card">
-            <div class="card-image">
-              <figure class="image is-centered">
-                <img src="./assets/images/merch/blackteeredcircle-thumb.png" alt="Placeholder image">
-              </figure>
-            </div>
-            <p class="card-title">Circle Tee</p>
-              <a href="https://us.mporium.org/collections/t-shirts/products/black-circle-album-tee" target="_blank" class="card-footer-item button is-dark">$20</a>
-          </div>
-          <!-- <img src="./assets/images/merch/blackteeredcircle-thumb.png" /> -->
-        </div>
-        <div class="filterDiv other">
-          <div class="card">
-            <div class="card-image">
-              <figure class="image is-centered">
-                <img src="./assets/images/merch/blue-mug-thumb.jpg" alt="Placeholder image">
-              </figure>
-            </div>
-            <p class="card-title">Thames Tea Mug</p>
-            <a href="https://us.mporium.org/collections/accessories/products/taste-of-the-thames-tea-mug" target="_blank" class="card-footer-item button is-dark">$20</a>
-          </div>
-          <!-- <img src="./assets/images/merch/blue-mug-thumb.jpg" /> -->
-        </div>
-        <div class="filterDiv other">
-          <div class="card">
-            <div class="card-image">
-              <figure class="image is-centered">
-                <img src="./assets/images/merch/buttonassortment-thumb.png" alt="Placeholder image">
-              </figure>
-            </div>
-            <p class="card-title">Buttons 6-pk</p>
-              <a href="https://us.mporium.org/collections/accessories/products/button-6-pack" target="_blank" class="card-footer-item button is-dark">$10</a>
-          </div>
-          <!-- <img src="./assets/images/merch/buttonassortment-thumb.png" /> -->
-        </div>
-        <div class="filterDiv other">
-          <div class="card">
-            <div class="card-image">
+    <div id="sidenav">
+      <div class="sidenav" id="myBtnContainer">
+        <a class="btn active" onclick="filterSelection('all')">All Items</a>
+        <a class="btn" onclick="filterSelection('clothing')">Clothing</a>
+        <a class="btn" onclick="filterSelection('other')">Other</a>
+        <a class="btn" onclick="filterSelection('vinyl')">Vinyl</a>
+      </div>
+    </div>
+    <div class="card-container row">
+      <div class="filterDiv clothing">
+        <div class="card">
+          <div class="card-image">
             <figure class="image is-centered">
-              <img src="./assets/images/merch/cat-neck.jpg" alt="Placeholder image">
+              <img src="./assets/images/merch/blackteeredcircle-thumb.png" alt="Placeholder image">
             </figure>
           </div>
-            <p class="card-title">Cat Necklace</p>
-            <a href="https://us.mporium.org/collections/accessories/products/cat-necklace" target="_blank" class="card-footer-item button is-dark">$30</a>
-          </div>
-          <!-- <img src="./assets/images/merch/cat-neck.jpg" /> -->
+          <p class="card-title">Circle Tee</p>
+            <a href="https://us.mporium.org/collections/t-shirts/products/black-circle-album-tee" target="_blank" class="card-footer-item button is-dark">$20</a>
         </div>
-        <div class="filterDiv vinyl">
-          <div class="card">
-            <div class="card-image">
-              <figure class="image is-centered">
-                <img src="./assets/images/merch/French-LP-thumb.png" alt="Placeholder image">
-              </figure>
-            </div>
-            <p class="card-title">LOW LP (French)</p>
-              <p class="card-footer-item button is-danger">SOLD OUT</p>
-            </div>
-            <!-- <img src="./assets/images/merch/French-LP-thumb.png" /> -->
+        <!-- <img src="./assets/images/merch/blackteeredcircle-thumb.png" /> -->
+      </div>
+      <div class="filterDiv other">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-centered">
+              <img src="./assets/images/merch/blue-mug-thumb.jpg" alt="Placeholder image">
+            </figure>
           </div>
-        <div class="filterDiv clothing">
-          <div class="card">
-            <div class="card-image">
-              <figure class="image is-centered">
-                <img src="./assets/images/merch/headshottee-thumb.png" alt="Placeholder image">
-              </figure>
-            </div>
-            <p class="card-title">Everyday Tee</p>
-              <a href="https://us.mporium.org/collections/t-shirts/products/headshot-tee" target="_blank" class="card-footer-item button is-dark">$35</a>
-          </div>
-          <!-- <img src="./assets/images/merch/headshottee-thumb.png" /> -->
+          <p class="card-title">Thames Tea Mug</p>
+          <a href="https://us.mporium.org/collections/accessories/products/taste-of-the-thames-tea-mug" target="_blank" class="card-footer-item button is-dark">$20</a>
         </div>
-        <div class="filterDiv vinyl">
-          <div class="card">
-            <div class="card-image">
-              <figure class="image is-centered">
-                <img src="./assets/images/merch/lp-spanish-thumb.png" alt="Placeholder image">
-              </figure>
-            </div>
-            <p class="card-title">LOW LP (Spanish)</p>
-              <a href="https://us.mporium.org/collections/music/products/low-in-high-school-lp-spanish" target="_blank" class="card-footer-item button is-dark">$15</a>
-              </div>
-          <!-- <img src="./assets/images/merch/lp-spanish-thumb.png" /> -->
-        </div>
-        <div class="filterDiv vinyl">
-          <div class="card">
-            <div class="card-image">
-              <figure class="image is-centered">
-                <img src="./assets/images/merch/lpnewrelease-thumb.png" alt="Placeholder image">
-              </figure>
-            </div>
-            <p class="card-title">LOW LP (English)</p>
-              <a href="https://us.mporium.org/collections/music/products/low-in-high-school-lp-standard" target="_blank" class="card-footer-item button is-dark">$15</a>
+        <!-- <img src="./assets/images/merch/blue-mug-thumb.jpg" /> -->
+      </div>
+      <div class="filterDiv other">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-centered">
+              <img src="./assets/images/merch/buttonassortment-thumb.png" alt="Placeholder image">
+            </figure>
           </div>
-          <!-- <img src="./assets/images/merch/lpnewrelease-thumb.png" /> -->
+          <p class="card-title">Buttons 6-pk</p>
+            <a href="https://us.mporium.org/collections/accessories/products/button-6-pack" target="_blank" class="card-footer-item button is-dark">$10</a>
         </div>
-        <div class="filterDiv clothing">
-          <div class="card">
-            <div class="card-image">
-              <figure class="image is-centered">
-                <img src="./assets/images/merch/mozenglishtee-thumb.png" alt="Placeholder image">
-              </figure>
-            </div>
-            <p class="card-title">Glamorous Glue Ladies Tee</p>
-              <a href="https://us.mporium.org/collections/t-shirts/products/ladies-glamorous-glue-t-shirt" target="_blank" class="card-footer-item button is-dark">$35</a>
-          </div>
-          <!-- <img src="./assets/images/merch/mozenglishtee-thumb.png" /> -->
+        <!-- <img src="./assets/images/merch/buttonassortment-thumb.png" /> -->
+      </div>
+      <div class="filterDiv other">
+        <div class="card">
+          <div class="card-image">
+          <figure class="image is-centered">
+            <img src="./assets/images/merch/cat-neck.jpg" alt="Placeholder image">
+          </figure>
         </div>
-        <div class="filterDiv other">
-          <div class="card">
-            <div class="card-image">
-              <figure class="image is-centered">
-                <img src="./assets/images/merch/mug-white-thumb.png" alt="Placeholder image">
-              </figure>
-            </div>
-            <p class="card-title">Smug Mug</p>
-              <a href="https://us.mporium.org/collections/accessories/products/smug-mug" target="_blank" class="card-footer-item button is-dark">$20</a>
-          </div>
-          <!-- <img src="./assets/images/merch/mug-white-thumb.png" /> -->
+          <p class="card-title">Cat Necklace</p>
+          <a href="https://us.mporium.org/collections/accessories/products/cat-necklace" target="_blank" class="card-footer-item button is-dark">$30</a>
         </div>
-        <div class="filterDiv clothing">
-          <div class="card">
-            <div class="card-image">
-              <figure class="image is-centered">
-                <img src="./assets/images/merch/newreleasetee-thumb.png" alt="Placeholder image">
-              </figure>
-            </div>
-            <p class="card-title">LOW Tee</p>
-              <a href="https://us.mporium.org/collections/t-shirts/products/low-in-high-school-tee" target="_blank" class="card-footer-item button is-dark">$35</a>
+        <!-- <img src="./assets/images/merch/cat-neck.jpg" /> -->
+      </div>
+      <div class="filterDiv vinyl">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-centered">
+              <img src="./assets/images/merch/French-LP-thumb.png" alt="Placeholder image">
+            </figure>
           </div>
-          <!-- <img src="./assets/images/merch/newreleasetee-thumb.png" /> -->
+          <p class="card-title">LOW LP (French)</p>
+            <p class="card-footer-item button is-danger">SOLD OUT</p>
+          </div>
+          <!-- <img src="./assets/images/merch/French-LP-thumb.png" /> -->
         </div>
-        <div class="filterDiv other">
-          <div class="card">
-            <div class="card-image">
-              <figure class="image is-centered">
-                <img src="./assets/images/merch/pillowcase-thumb.png" alt="Placeholder image">
-              </figure>
-            </div>
-            <p class="card-title">Dream Pillowcase</p>
-              <p class="card-footer-item button is-danger">SOLD OUT</p>
+      <div class="filterDiv clothing">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-centered">
+              <img src="./assets/images/merch/headshottee-thumb.png" alt="Placeholder image">
+            </figure>
           </div>
-          <!-- <img src="./assets/images/merch/pillowcase-thumb.png" /> -->
+          <p class="card-title">Everyday Tee</p>
+            <a href="https://us.mporium.org/collections/t-shirts/products/headshot-tee" target="_blank" class="card-footer-item button is-dark">$35</a>
         </div>
-        <div class="filterDiv clothing">
-          <div class="card">
-            <div class="card-image">
-              <figure class="image is-centered">
-                <img src="./assets/images/merch/redringertee-thumb.png" alt="Placeholder image">
-              </figure>
-            </div>
-            <p class="card-title">Red Ringer Tee</p>
-              <a href="https://us.mporium.org/collections/t-shirts/products/be-kind-re-ringer" target="_blank" class="card-footer-item button is-dark">$35</a>
+        <!-- <img src="./assets/images/merch/headshottee-thumb.png" /> -->
+      </div>
+      <div class="filterDiv vinyl">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-centered">
+              <img src="./assets/images/merch/lp-spanish-thumb.png" alt="Placeholder image">
+            </figure>
           </div>
-          <!-- <img src="./assets/images/merch/redringertee-thumb.png" /> -->
+          <p class="card-title">LOW LP (Spanish)</p>
+            <a href="https://us.mporium.org/collections/music/products/low-in-high-school-lp-spanish" target="_blank" class="card-footer-item button is-dark">$15</a>
+            </div>
+        <!-- <img src="./assets/images/merch/lp-spanish-thumb.png" /> -->
+      </div>
+      <div class="filterDiv vinyl">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-centered">
+              <img src="./assets/images/merch/lpnewrelease-thumb.png" alt="Placeholder image">
+            </figure>
+          </div>
+          <p class="card-title">LOW LP (English)</p>
+            <a href="https://us.mporium.org/collections/music/products/low-in-high-school-lp-standard" target="_blank" class="card-footer-item button is-dark">$15</a>
         </div>
-        <div class="filterDiv clothing">
-          <div class="card">
-            <div class="card-image">
-              <figure class="image is-centered">
-                <img src="./assets/images/merch/sweatshirt-thumb.png" alt="Placeholder image">
-              </figure>
-            </div>
-            <p class="card-title">Hard Knocks Hoodie</p>
-              <a href="https://us.mporium.org/collections/t-shirts/products/hard-knocks-hoodie" target="_blank" class="card-footer-item button is-dark">$30</a>
+        <!-- <img src="./assets/images/merch/lpnewrelease-thumb.png" /> -->
+      </div>
+      <div class="filterDiv clothing">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-centered">
+              <img src="./assets/images/merch/mozenglishtee-thumb.png" alt="Placeholder image">
+            </figure>
           </div>
-          <!-- <img src="./assets/images/merch/sweatshirt-thumb.png" /> -->
+          <p class="card-title">Glamorous Glue Ladies Tee</p>
+            <a href="https://us.mporium.org/collections/t-shirts/products/ladies-glamorous-glue-t-shirt" target="_blank" class="card-footer-item button is-dark">$35</a>
         </div>
-        <div class="filterDiv clothing">
-          <div class="card">
-            <div class="card-image">
-              <figure class="image is-centered">
-                <img src="./assets/images/merch/vintagetee-thumb.png" alt="Placeholder image">
-              </figure>
-            </div>
-            <p class="card-title">Vintage Tee</p>
-              <a href="https://us.mporium.org/collections/t-shirts/products/vintage-tee" target="_blank" class="card-footer-item button is-dark">$35</a>
+        <!-- <img src="./assets/images/merch/mozenglishtee-thumb.png" /> -->
+      </div>
+      <div class="filterDiv other">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-centered">
+              <img src="./assets/images/merch/mug-white-thumb.png" alt="Placeholder image">
+            </figure>
           </div>
-          <!-- <img src="./assets/images/merch/vintagetee-thumb.png" /> -->
+          <p class="card-title">Smug Mug</p>
+            <a href="https://us.mporium.org/collections/accessories/products/smug-mug" target="_blank" class="card-footer-item button is-dark">$20</a>
         </div>
-        <div class="filterDiv other">
-          <div class="card">
-            <div class="card-image">
-              <figure class="image is-centered">
-                <img src="./assets/images/merch/blueposter-thumb.png" alt="Placeholder image">
-              </figure>
-            </div>
-            <p class="card-title">Ltd. Edition Poster</p>
-              <a href="https://us.mporium.org/collections/accessories/products/blue-pop-up-poster" target="_blank" class="card-footer-item button is-dark">Sale! $2</a>
+        <!-- <img src="./assets/images/merch/mug-white-thumb.png" /> -->
+      </div>
+      <div class="filterDiv clothing">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-centered">
+              <img src="./assets/images/merch/newreleasetee-thumb.png" alt="Placeholder image">
+            </figure>
           </div>
-          <!-- <img src="./assets/images/merch/blueposter-thumb.png" /> -->
+          <p class="card-title">LOW Tee</p>
+            <a href="https://us.mporium.org/collections/t-shirts/products/low-in-high-school-tee" target="_blank" class="card-footer-item button is-dark">$35</a>
+        </div>
+        <!-- <img src="./assets/images/merch/newreleasetee-thumb.png" /> -->
+      </div>
+      <div class="filterDiv other">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-centered">
+              <img src="./assets/images/merch/pillowcase-thumb.png" alt="Placeholder image">
+            </figure>
+          </div>
+          <p class="card-title">Dream Pillowcase</p>
+            <p class="card-footer-item button is-danger">SOLD OUT</p>
+        </div>
+        <!-- <img src="./assets/images/merch/pillowcase-thumb.png" /> -->
+        </div>
+      <div class="filterDiv clothing">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-centered">
+              <img src="./assets/images/merch/redringertee-thumb.png" alt="Placeholder image">
+            </figure>
+          </div>
+          <p class="card-title">Red Ringer Tee</p>
+            <a href="https://us.mporium.org/collections/t-shirts/products/be-kind-re-ringer" target="_blank" class="card-footer-item button is-dark">$35</a>
+        </div>
+        <!-- <img src="./assets/images/merch/redringertee-thumb.png" /> -->
+      </div>
+      <div class="filterDiv clothing">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-centered">
+              <img src="./assets/images/merch/sweatshirt-thumb.png" alt="Placeholder image">
+            </figure>
+          </div>
+          <p class="card-title">Hard Knocks Hoodie</p>
+            <a href="https://us.mporium.org/collections/t-shirts/products/hard-knocks-hoodie" target="_blank" class="card-footer-item button is-dark">$30</a>
+        </div>
+        <!-- <img src="./assets/images/merch/sweatshirt-thumb.png" /> -->
+      </div>
+      <div class="filterDiv clothing">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-centered">
+              <img src="./assets/images/merch/vintagetee-thumb.png" alt="Placeholder image">
+            </figure>
+          </div>
+          <p class="card-title">Vintage Tee</p>
+            <a href="https://us.mporium.org/collections/t-shirts/products/vintage-tee" target="_blank" class="card-footer-item button is-dark">$35</a>
+        </div>
+        <!-- <img src="./assets/images/merch/vintagetee-thumb.png" /> -->
+      </div>
+      <div class="filterDiv other">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-centered">
+              <img src="./assets/images/merch/blueposter-thumb.png" alt="Placeholder image">
+            </figure>
+          </div>
+          <p class="card-title">Ltd. Edition Poster</p>
+            <a href="https://us.mporium.org/collections/accessories/products/blue-pop-up-poster" target="_blank" class="card-footer-item button is-dark">Sale! $2</a>
         </div>
     </div>
-  <!--the closing div tab for "main"-->
-  </div>
-  <script>
+    <script>
       filterSelection("all")
       function filterSelection(c) {
         var x, i;
