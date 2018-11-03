@@ -154,14 +154,13 @@ text-indent: 50px;
 }
 
 .content {
+  margin-bottom: 100px;
   background: white;
   border-radius: 15px;
   min-width: 400px;
-  height: auto;
   padding: 5px;
   margin-left: 470px;
   margin-right: 120px;
-  margin-top: 20px;
 }
 .card-title {
   font-size: 130%;
