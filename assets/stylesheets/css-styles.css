@@ -57,11 +57,6 @@ text-decoration: none;
   text-decoration: none;
 }
 
-.columns a{
-  text-decoration: none;
-  color: inherit;
-}
-
 .dark-menu-box{
   position: fixed;
   z-index: 1; /*to stay on top*/
@@ -93,6 +88,11 @@ text-decoration: none;
   padding-right: 120px;
   padding-left: 120px;
   padding-bottom: 40px;
+}
+
+.columns a{
+  text-decoration: none;
+  color: inherit;
 }
 .video-display-box{
   padding-top: 50px;
@@ -148,9 +148,15 @@ text-decoration: none;
   /* background: rgb(0,0,0,0.65); */
 }
 
-.container {
-    padding-top: 110px;
-    padding-right: 120px;
+/* .container {
+    padding-top: 120px;
+    margin-right: 120px;
+    margin-left: 120px;
+    overflow: hidden;
+} */
+
+.container-discography {
+    padding-top: 150px;
     overflow: hidden;
 }
 
@@ -160,7 +166,7 @@ text-decoration: none;
   border-radius: 15px;
   min-width: 400px;
   padding: 5px;
-  margin-left: 470px;
+  margin-left: 480px;
   margin-right: 120px;
 }
 .card-title {
