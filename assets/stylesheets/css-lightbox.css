@@ -8,9 +8,9 @@ body {
 }
 .photo-content{
   background: white;
-  min-width: 400px;
   margin-left: 120px;
   margin-top: 100px;
+  margin-right: 120px;
 }
 .special-headline {
   font-family: 'Ultra', serif;
@@ -59,8 +59,8 @@ body {
   border-width: thick;
   border-color: black;
   object-fit: contain;
-  /* width: 75%;
-  max-width: 1200px; */
+  width: 75%;
+  max-width: 1000px;
 }
 
 /* The Close Button */
@@ -129,6 +129,22 @@ body {
 
 img {
   margin-bottom: -4px;
+}
+
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
 }
 
 img.hover-shadow {
