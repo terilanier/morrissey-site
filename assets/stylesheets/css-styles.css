@@ -128,6 +128,10 @@ text-decoration: none;
   text-align: left;
   font-size: 70%;
 }
+.tour-text {
+  color: grey;
+  text-decoration: none;
+}
 .plain-text {
   border-left: 2px solid #ffa64d;
   padding: 30px;
