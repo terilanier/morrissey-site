@@ -112,6 +112,10 @@ text-decoration: none;
   margin-right: 120px;
   margin-top: auto;
 }
+.floated {
+    float: right;
+    margin: 10px;
+}
 
 .headlines {
   color: white;
