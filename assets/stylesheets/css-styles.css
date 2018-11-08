@@ -17,7 +17,7 @@ body {
   font-size: 120%;
   padding-top: 30px;
   height: auto;
-  min-width: 600px;
+  /* min-width: 600px; */
   border-top: 2px solid #ffcc99;
   border-bottom: 2px solid #ffcc99;
 }
@@ -153,15 +153,7 @@ text-decoration: none;
 /* used only on tourdates */
 .text-box {
   width: 720px;
-  /* background: rgb(0,0,0,0.65); */
 }
-
-/* .container {
-    padding-top: 120px;
-    margin-right: 120px;
-    margin-left: 120px;
-    overflow: hidden;
-} */
 
 .container-discography {
     padding-top: 150px;
@@ -177,6 +169,7 @@ text-decoration: none;
   margin-left: 480px;
   margin-right: 120px;
 }
+/* used on merch page */
 .card-title {
   font-size: 130%;
   text-align: center;
@@ -216,7 +209,7 @@ text-decoration: none;
   display: block;
 }
 
-/* The following is all MERCH-STYLING */
+/* The following is all MERCH */
 /* The sidebar menu */
 .sidenav {
     height: 100%; /* Full-height: remove this if you want "auto" height */
